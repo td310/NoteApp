@@ -29,15 +29,17 @@
                 android:textSize="18sp"/>
 
             <TextView
+                android:id="@+id/noteDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/noteDesc"
                 android:layout_marginTop="8dp"
-                android:maxHeight="170dp"
                 android:text="Description"
                 android:textSize="14sp"
                 android:fontFamily="@font/poppins"
-                android:textColor="@color/pink"/>
+                android:textColor="@color/green"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:maxHeight="170dp"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
