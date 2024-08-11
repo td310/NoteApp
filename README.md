@@ -5,6 +5,7 @@
 <p align="left">• Language: Kotlin </p>
 <p align="left">• Architecture: MVVM </p>
 <p align="left">• Local Storage: Room Database </p>
+<p align="left">•  Navigation: Navigation Component </p>
 
 <h1 align="left"></h1>
 
